@@ -1,0 +1,5 @@
+console.log("This a program for Variable")
+let a = 69 // a contains 69
+console.log(a)
+a = "Tamzid"
+console.log(a)
