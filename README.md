@@ -1,1 +1,1 @@
-# JavaScript
+console.log("This is my first JavaScript Program")
