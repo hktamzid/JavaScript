@@ -1,0 +1,30 @@
+console.log("This program is for Primitive dataypes and onjects")
+let a = null
+let b = 334
+let c = Symbol("I am a # symbol")
+let d = "Tamzid"
+let e = true
+let f = BigInt(9999999) + BigInt(1111112)
+let g
+console.log(a, b, c, d, e, f, g)
+console.log(" ")
+console.log(typeof a)
+console.log(typeof b)
+console.log(typeof c)
+console.log(typeof d)
+console.log(typeof e)
+console.log(typeof f)
+console.log(typeof g)
+
+//Non-Premitive data types.
+const item = {  // These items are called objects
+  "Tamzid": true,
+  "Mahmud": false,
+  "Angkon": 25,
+  "Sompa": "wife", // string should be defined in quotation
+  "Akter": undefined
+}
+console.log(" ")
+console.log(item["Angkon"])
+console.log(item["Sompa"])
+console.log(item["Tamzid"])
