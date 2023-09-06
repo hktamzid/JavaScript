@@ -1,0 +1,37 @@
+//Question 1
+let a = "Tamzid"
+let b = 5
+console.log(a + b)
+console.log("-------------")
+
+//Question 2
+console.log(typeof(a))
+console.log(typeof(b))
+console.log(typeof(a + b))
+console.log("-------------")
+
+//Question 3
+const c = {
+  Name: "Tamzid",
+  Roll: 536,
+  IsPrinciple: true
+}
+//c = 55
+console.log("This output is showing error")
+console.log("-------------")
+
+//Question 4
+c['Friend']="Mahmud"
+c['Roll']="537"
+console.log(c)
+console.log("-------------")
+
+//Question 5
+const dict = {
+  necessary: "That is needed for a purpose or a reason",
+  arrogant: "Thinking that you are better and more important than other people",
+  beautiful: "Very pretty or attractive; giving pleasure to the senses",
+  colleague: "A person who works at the same place as you",
+  expedite: "To make something happen more quickly"
+}
+console.log(dict.arrogant)
