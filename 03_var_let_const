@@ -1,0 +1,13 @@
+console.log("This program is for var, let and const")
+var a = 5 // var can be redefined and updated
+let b = "Tamzid" // let can not be redfined 
+const coder = "Mahmud"
+let c = 10
+console.log(b)
+console.log(a)
+console.log(coder)
+{
+  let a = "Angkon"
+  console.log(a)
+}
+console.log(a)
