@@ -1,0 +1,30 @@
+//Sum of first 10 numbers
+
+let sum = 0
+let n = prompt("Enter the input number: ")
+n = Number.parseInt(n)
+for(let i = 0; i < n; i++)
+  {
+    sum += (i+1)
+  }
+console.log("The sum of first "+ n + " number is", sum)
+
+// Printing 1-100 number using for loop
+/*
+let n = prompt("Enter the value of n: ")
+n = Number.parseInt(n)
+for(let i = 0; i < n; i++){
+  console.log(i)
+}
+*/
+
+let obj = {
+  Tamzid: 98,
+  Mahmud: 97,
+  Angkon: 96,
+  Sompa: 95,
+  Akter: 94
+}
+for(let a in obj){
+  console.log("The marks of " + a + " is " + obj[a])
+}
